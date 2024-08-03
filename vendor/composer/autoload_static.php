@@ -7,10 +7,17 @@ namespace Composer\Autoload;
 class ComposerStaticInit938dc3bf5cd7117cb128f363527707a1
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '94d1ccdaf3f92627513d5c77d88f8e94' => __DIR__ . '/../..' . '/config/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\VarDumper\\' => 28,
+        ),
         'P' => 
         array (
             'PhpTest\\' => 8,
@@ -18,6 +25,14 @@ class ComposerStaticInit938dc3bf5cd7117cb128f363527707a1
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
         'PhpTest\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -25,6 +40,7 @@ class ComposerStaticInit938dc3bf5cd7117cb128f363527707a1
     );
 
     public static $classMap = array (
+        'AltoRouter' => __DIR__ . '/..' . '/altorouter/altorouter/AltoRouter.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

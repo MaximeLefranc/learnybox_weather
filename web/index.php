@@ -1,7 +1,5 @@
 <?php
 
-use PhpTest\Services\WeatherService;
-
 if (!is_file(__DIR__ . '/../vendor/autoload.php')) {
     exit('/!\ Please run composer install /!\\');
 }
@@ -9,5 +7,4 @@ if (!is_file(__DIR__ . '/../vendor/autoload.php')) {
 require __DIR__ . '/../vendor/autoload.php';
 
 // TODO: show weather
-$weatherService = new WeatherService();
-var_dump($weatherService);
+$router = new AltoRouter();
