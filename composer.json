@@ -12,7 +12,6 @@
   "require": {
     "php": ">=8.2",
     "altorouter/altorouter": "^2.0",
-    "symfony/var-dumper": "^7.1",
     "benoclock/alto-dispatcher": "^1.3"
   }
 }
