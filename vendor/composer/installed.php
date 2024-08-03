@@ -19,6 +19,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'benoclock/alto-dispatcher' => array(
+            'pretty_version' => '1.3',
+            'version' => '1.3.0.0',
+            'reference' => 'fe7cbb66323a3d5025cc51941b1bdb6cc67be40c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../benoclock/alto-dispatcher',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'phptest/phptest' => array(
             'pretty_version' => '1.1.0',
             'version' => '1.1.0.0',
